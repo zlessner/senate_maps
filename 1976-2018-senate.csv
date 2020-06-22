@@ -2435,7 +2435,7 @@ year,state,state_po,state_fips,state_cen,state_ic,office,district,stage,special,
 2010,Alaska,AK,2,94,81,US Senate,statewide,gen,FALSE,Ted Gianoutsos,4,nonaffiliated,FALSE,total,458,255503,FALSE,20171011,0.001792543,1,0.001792543
 2010,Alaska,AK,2,94,81,US Senate,statewide,gen,FALSE,NA,4,NA,TRUE,total,61,255503,FALSE,20171011,0.000238745,1,0.000238745
 2010,Alaska,AK,2,94,81,US Senate,statewide,gen,FALSE,NA,4,NA,TRUE,total,21,255503,FALSE,20171011,8.21908E-05,1,8.21908E-05
-2010,Alaska,AK,2,94,81,US Senate,statewide,gen,FALSE,Lisa Murkowski,4,,TRUE,total,101091,255503,FALSE,20171011,0.395654846,1,0.395654846
+2010,Alaska,AK,2,94,81,US Senate,statewide,gen,FALSE,Lisa Murkowski,-1,republican,TRUE,total,101091,255503,FALSE,20171011,-0.395654846,-1,0.395654846
 2010,Alaska,AK,2,94,81,US Senate,statewide,gen,FALSE,Other,4,,FALSE,total,602,255503,FALSE,20171011,0.002356137,1,0.002356137
 2010,Alaska,AK,2,94,81,US Senate,statewide,gen,FALSE,Joe Miller,-1,republican,FALSE,total,90839,255503,FALSE,20171011,-0.355530072,-1,0.355530072
 2010,Alaska,AK,2,94,81,US Senate,statewide,gen,FALSE,"Fredrick ""David"" Haase",4,libertarian,FALSE,total,1459,255503,FALSE,20171011,0.005710305,1,0.005710305
@@ -3142,30 +3142,32 @@ year,state,state_po,state_fips,state_cen,state_ic,office,district,stage,special,
 2016,Kentucky,KY,21,61,51,US Senate,statewide,gen,FALSE,NA,4,NA,TRUE,total,6,1903465,FALSE,20171011,3.15215E-06,1,3.15215E-06
 2016,Kentucky,KY,21,61,51,US Senate,statewide,gen,FALSE,Jim Gray,2,democrat,FALSE,total,813246,1903465,FALSE,20171011,0.42724505,1,0.42724505
 2016,Kentucky,KY,21,61,51,US Senate,statewide,gen,FALSE,NA,4,NA,TRUE,total,36,1903465,FALSE,20171011,1.89129E-05,1,1.89129E-05
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,"Charles W. Boustany, Jr.",-1,republican,FALSE,total,298008,1997218,FALSE,20171011,-0.149211553,-1,0.149211553
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Derrick Edwards,2,democrat,FALSE,total,51774,1997218,FALSE,20171011,0.025923059,1,0.025923059
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,"M. V. ""Vinny""Mendoza",2,democrat,FALSE,total,4927,1997218,FALSE,20171011,0.002466932,1,0.002466932
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,John Fleming,-1,republican,FALSE,total,204026,1997218,FALSE,20171011,-0.102155098,-1,0.102155098
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Caroline Fayard,2,democrat,FALSE,total,240917,1997218,FALSE,20171011,0.120626291,1,0.120626291
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Peter Williams,2,democrat,FALSE,total,6855,1997218,FALSE,20171011,0.003432274,1,0.003432274
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,LeRoy Gillam,4,libertarian,FALSE,total,4067,1997218,FALSE,20171011,0.002036333,1,0.002036333
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,"""Rob"" Maness",-1,republican,FALSE,total,90856,1997218,FALSE,20171011,-0.045491278,-1,0.045491278
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Kaitlin Marone,4,none,FALSE,total,4108,1997218,FALSE,20171011,0.002056861,1,0.002056861
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Joshua Pellerin,2,democrat,FALSE,total,7395,1997218,FALSE,20171011,0.00370265,1,0.00370265
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,"William Robert Lang, Jr.",4,other,FALSE,total,1424,1997218,FALSE,20171011,0.000712992,1,0.000712992
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Beryl Billiot,4,none,FALSE,total,19352,1997218,FALSE,20171011,0.009689478,1,0.009689478
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Arden Wells,4,none,FALSE,total,1483,1997218,FALSE,20171011,0.000742533,1,0.000742533
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Troy Hebert,4,none,FALSE,total,9503,1997218,FALSE,20171011,0.004758119,1,0.004758119
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,John Kennedy,-1,republican,FALSE,total,536191,1997218,FALSE,20171011,-0.26846894,-1,0.26846894
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,"Gregory Taylor, Jr.",4,other,FALSE,total,1151,1997218,FALSE,20171011,0.000576302,1,0.000576302
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Thomas P. Clements,4,libertarian,FALSE,total,11370,1997218,FALSE,20171011,0.005692919,1,0.005692919
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Gary Landrieu,2,democrat,FALSE,total,45587,1997218,FALSE,20171011,0.02282525,1,0.02282525
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Foster Campbell,2,democrat,FALSE,total,347816,1997218,FALSE,20171011,0.174150243,1,0.174150243
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Abhay Patel,-1,republican,FALSE,total,1576,1997218,FALSE,20171011,-0.000789098,-1,0.000789098
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,"""Joseph"" Cao",-1,republican,FALSE,total,21019,1997218,FALSE,20171011,-0.010524139,-1,0.010524139
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,David Duke,-1,republican,FALSE,total,58606,1997218,FALSE,20171011,-0.029343817,-1,0.029343817
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,"Donald ""Crawdaddy"" Crawford",-1,republican,FALSE,total,25523,1997218,FALSE,20171011,-0.012779276,-1,0.012779276
-2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Charles Marsala,-1,republican,FALSE,total,3684,1997218,FALSE,20171011,-0.001844566,-1,0.001844566
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,"Charles W. Boustany, Jr.",-1,republican,FALSE,total,298008,1933635,FALSE,20171011,-0.154118021,-1,0.154118021
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,Derrick Edwards,2,democrat,FALSE,total,51774,1933635,FALSE,20171011,0.026775477,1,0.026775477
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,"M. V. ""Vinny""Mendoza",2,democrat,FALSE,total,4927,1933635,FALSE,20171011,0.002548051,1,0.002548051
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,John Fleming,-1,republican,FALSE,total,204026,1933635,FALSE,20171011,-0.105514226,-1,0.105514226
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,Caroline Fayard,2,democrat,FALSE,total,240917,1933635,FALSE,20171011,0.124592801,1,0.124592801
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,Peter Williams,2,democrat,FALSE,total,6855,1933635,FALSE,20171011,0.003545136,1,0.003545136
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,LeRoy Gillam,4,libertarian,FALSE,total,4067,1933635,FALSE,20171011,0.002103293,1,0.002103293
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,"""Rob"" Maness",-1,republican,FALSE,total,90856,1933635,FALSE,20171011,-0.046987151,-1,0.046987151
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,Kaitlin Marone,4,none,FALSE,total,4108,1933635,FALSE,20171011,0.002124496,1,0.002124496
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,Joshua Pellerin,2,democrat,FALSE,total,7395,1933635,FALSE,20171011,0.003824403,1,0.003824403
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,"William Robert Lang, Jr.",4,other,FALSE,total,1424,1933635,FALSE,20171011,0.000736437,1,0.000736437
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,Beryl Billiot,4,none,FALSE,total,19352,1933635,FALSE,20171011,0.010008094,1,0.010008094
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,Arden Wells,4,none,FALSE,total,1483,1933635,FALSE,20171011,0.000766949,1,0.000766949
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,Troy Hebert,4,none,FALSE,total,9503,1933635,FALSE,20171011,0.004914578,1,0.004914578
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,John Kennedy,-1,republican,FALSE,total,482591,1933635,FALSE,20171011,-0.249577092,-1,0.249577092
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,"Gregory Taylor, Jr.",4,other,FALSE,total,1151,1933635,FALSE,20171011,0.000595252,1,0.000595252
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,Thomas P. Clements,4,libertarian,FALSE,total,11370,1933635,FALSE,20171011,0.005880117,1,0.005880117
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,Gary Landrieu,2,democrat,FALSE,total,45587,1933635,FALSE,20171011,0.023575804,1,0.023575804
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,Foster Campbell,2,democrat,FALSE,total,337833,1933635,FALSE,20171011,0.174713945,1,0.174713945
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,Abhay Patel,-1,republican,FALSE,total,1576,1933635,FALSE,20171011,-0.000815045,-1,0.000815045
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,"""Joseph"" Cao",-1,republican,FALSE,total,21019,1933635,FALSE,20171011,-0.0108702,-1,0.0108702
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,David Duke,-1,republican,FALSE,total,58606,1933635,FALSE,20171011,-0.030308719,-1,0.030308719
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,"Donald ""Crawdaddy"" Crawford",-1,republican,FALSE,total,25523,1933635,FALSE,20171011,-0.013199492,-1,0.013199492
+2016,Louisiana,LA-prim,22,72,45,US Senate,statewide,gen,FALSE,Charles Marsala,-1,republican,FALSE,total,3684,1933635,FALSE,20171011,-0.00190522,-1,0.00190522
+2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,Foster Campbell,2,democrat,FALSE,total,347816,884007,FALSE,20171011,0.393453898,1,0.393453898
+2016,Louisiana,LA,22,72,45,US Senate,statewide,gen,FALSE,John Kennedy,-1,republican,FALSE,total,536191,884007,FALSE,20171011,-0.606546102,-1,0.606546102
 2016,Maryland,MD,24,52,52,US Senate,statewide,gen,FALSE,Chris Van Hollen,2,democrat,FALSE,total,1659907,2726170,FALSE,20171011,0.608878757,1,0.608878757
 2016,Maryland,MD,24,52,52,US Senate,statewide,gen,FALSE,Margaret Flowers,4,green,FALSE,total,89970,2726170,FALSE,20171011,0.033002344,1,0.033002344
 2016,Maryland,MD,24,52,52,US Senate,statewide,gen,FALSE,NA,4,NA,TRUE,total,77,2726170,FALSE,20171011,2.82448E-05,1,2.82448E-05
